@@ -52,7 +52,7 @@
 	var_dump($user);
 	*/
 		
-	# create user from array
+	# create user from object
 	/*
 	$user = $tc->users()->create( (object) array(
 		'first' => 'Misty',
