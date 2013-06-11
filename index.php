@@ -42,12 +42,12 @@
 	# create user from array
 	/*
 	$user = $tc->users()->create( array(
-	'first' => 'Jane',
-	'last' => 'Doe',
-	'gender' => 'Female',
-	'email' => 'random15@example.com',
-	'staff' => false,
-	//...
+		'first' => 'Jane',
+		'last' => 'Doe',
+		'gender' => 'Female',
+		'email' => 'random15@example.com',
+		'staff' => false,
+		//...
 	))->get();
 	var_dump($user);
 	*/
