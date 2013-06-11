@@ -81,16 +81,16 @@
 	*/	
 	
 	# get user's addresses
-	//$addresses = $tc->users($userId)->addresses()->index();
+	//$addresses = $tc->users($userId)->addresses()->index()->get();
 	
 	# get specific address for user
-	//$address = $tc->users($userId)->addresses($addressId)->show();
+	//$address = $tc->users($userId)->addresses($addressId)->show()->get();
 	
 	# get user process
-	//$process = $tc->users($userId)->processes($processId)->show();
+	//$process = $tc->users($userId)->processes($processId)->show()->get();
 	
 	# users proces answers
-	//$answers = $tc->users($userId)->processes($processId)->answers()->index();
+	//$answers = $tc->users($userId)->processes($processId)->answers()->index()->get();
 	
 	
 
