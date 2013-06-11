@@ -92,6 +92,7 @@
 	# users proces answers
 	//$answers = $tc->users($userId)->processes($processId)->answers()->index()->get();
 	
-	
+
+	//... All endpoints available with CHAINABLE NAMING CONVENTION ...
 
 ?>
